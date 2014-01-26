@@ -1,0 +1,36 @@
+package com.photofilter;
+
+import android.graphics.Bitmap;
+import android.os.AsyncTask;
+import android.widget.ProgressBar;
+
+/*
+ * This class is used to filter the image in an asynchronous task.
+ */
+public class FilterImageTask extends AsyncTask<Bitmap, Integer, Bitmap> {
+	int myProgress;
+	
+	@Override
+	protected void onPreExecute()
+	{
+		pb.setVisibility(ProgressBar.VISIBLE);
+	}
+	
+	
+	@Override
+	protected Bitmap doInBackground(Bitmap... arg0) {
+		Bitmap image = arg0[0];
+		Bitmap returnImage = image.copy(Bitmap.Config.ARGB_8888, true);
+    	int height = image.getHeight();
+    	int width = image.getWidth();
+    	for(int i = 0; i < height; i++)
+    	{
+    		for(int j = 0; j < width; j++)
+    		{
+    			returnImage.setPixel(j, i, 0);
+    		}
+    	}
+    	return returnImage;
+	}
+	
+}

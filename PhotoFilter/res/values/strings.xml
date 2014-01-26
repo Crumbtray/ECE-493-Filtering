@@ -8,5 +8,8 @@
     <string name="welcome_text">Welcome to the Filter Project! \nBegin by selecting a picture!\n</string>
     <string name="imageDesc">Filter this picture!</string>
     <string name="action_do_filter">Apply Filter</string>
-
+    <string name="pref_filter_type">Filter Type</string>
+    <string name="title_activity_filter_settings">FilterSettingsActivity</string>
+	<string name="pref_filter_size">Filter Size</string>
+    
 </resources>

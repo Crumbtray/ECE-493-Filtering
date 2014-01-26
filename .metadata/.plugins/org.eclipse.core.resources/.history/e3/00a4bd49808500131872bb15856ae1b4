@@ -1,0 +1,7 @@
+package com.photofilter;
+
+import android.os.AsyncTask;
+
+public class FilterImageTask extends AsyncTask<Params, Progress, Result> {
+
+}

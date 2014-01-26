@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:dialogTitle="@string/pref_filter_type"
+        android:entries="@array/pref_filter_type_entries"
+        android:entryValues="@array/pref_filter_type_values"
+        android:key="prefFilterType"
+        android:summary="Set Filter Type"
+        android:title="@string/pref_filter_type" />
+    
+    <ListPreference
+        android:key="prefFilterSize"
+        android:title="@string/pref_filter_size"
+        android:dialogTitle="@string/pref_filter_size"
+        android:entries="@array/pref_filter_size_entries"
+        android:entryValues="@array/pref_filter_size_values"
+        />
+
+</PreferenceScreen>

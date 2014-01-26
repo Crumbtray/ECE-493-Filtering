@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filterType">
+        <item name="median">Median</item>
+        <item name="mean">Mean</item>
+    </string-array>
+</resources>

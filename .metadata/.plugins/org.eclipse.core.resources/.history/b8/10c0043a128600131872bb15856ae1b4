@@ -1,0 +1,14 @@
+package com.photofilter;
+
+import android.graphics.Bitmap;
+import android.os.AsyncTask;
+
+private class FilterTask extends AsyncTask<Bitmap, Integer, Bitmap> {
+
+	@Override
+	protected Bitmap doInBackground(Bitmap... inputs) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

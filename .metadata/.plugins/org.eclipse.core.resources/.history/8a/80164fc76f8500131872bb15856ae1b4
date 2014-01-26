@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_filter_type_entries">
+        
+    </string-array>
+    <string-array name="pref_filter_type_values">
+        <item>Median</item>
+        <item>Mean</item>
+    </string-array>
+</resources>

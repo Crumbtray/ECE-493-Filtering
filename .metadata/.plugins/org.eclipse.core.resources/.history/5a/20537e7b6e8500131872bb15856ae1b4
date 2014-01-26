@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+            android:key="prefFilterType"
+            android:title="Filter Type"
+            android:summary="Set Filter Type"
+            android:entries="@array/filterType"
+            android:entryValues="@array/filterTypeValues"
+            />
+
+</PreferenceScreen>
